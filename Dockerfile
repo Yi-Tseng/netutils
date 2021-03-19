@@ -20,6 +20,7 @@ RUN apt update && \
     telnet \
     git \
     tcpreplay \
-    dumb-init
+    dumb-init \
+    arping
 
 ENTRYPOINT ["dumb-init"]
